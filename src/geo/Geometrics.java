@@ -14,6 +14,11 @@ public class Geometrics {
     private static int z3 = 69;
 
     public static void main(String[] args) {
+        int product = calculation(1, 2);
+
+    public static int calculation(int x, int y){
+        return x * y; 
+    }
         // area ... Fläche
         System.out.println("Square area");
         System.out.println("x * x = " + x * x);
